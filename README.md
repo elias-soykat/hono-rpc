@@ -1,38 +1,65 @@
-# Descovering Hono RPC
+Here’s a concise, professional version of your README:
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+````markdown
+# Discovering Hono RPC
+
+A modern quotes app built with Next.js and Hono JS, fetching quotes from an API and displaying them dynamically.  
+
+## Features
+- Fetch and display quotes from an API  
+- Server-side rendering with Next.js  
+- GitHub OAuth authentication  
+- Responsive UI with Tailwind CSS  
+- Type-safe backend with Hono JS and Bun  
+- Database integration with DrizzleORM & NeonTech  
+
+## Tech Stack
+- Next.js, TypeScript, Tailwind CSS  
+- Hono JS, Bun  
+- DrizzleORM, NeonTech Database  
 
 ## Getting Started
+1. Clone the repo:
+```bash
+git clone <repo-url>
+cd <repo-folder>
+````
 
-This Project is a quotes app that fetches quotes from an API and displays them on the page,
+2. Set environment variables:
 
-# The stack used in this project are:
-- [Next.js](https://nextjs.org/)
-- [Typescript](https://www.typescriptlang.org)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Hono JS](https://hono.dev/)
-- [Bun](https://bun.sh/)
-- [DrizzleORM](https://orm.drizzle.team/)
-- [NeonTech Database](https://neon.tech/)
-
-# running the project
-
-copy `.env.example` to `.env` file in the root of the project and add the following variables:
 ```env
 AUTH_SECRET=""
-
 GITHUB_ID=""
 GITHUB_SECRET=""
-
 DATABASE_URL=""
 ```
 
-before running the project, you need to install the dependencies by running the following command:
-```bun
+3. Install dependencies:
+
+```bash
 bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Run the project:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Future Improvements
+
+* Save favorite quotes
+* User profiles and quote history
+* Pagination and search functionality
+* Automated testing
+
+## License
+
+MIT License
+
+```
+
+If you want, I can make an **even snappier GitHub-ready version** that fits in one scroll for portfolio presentation. Do you want me to do that?
+```
