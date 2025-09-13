@@ -55,11 +55,4 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 * Pagination and search functionality
 * Automated testing
 
-## License
 
-MIT License
-
-```
-
-If you want, I can make an **even snappier GitHub-ready version** that fits in one scroll for portfolio presentation. Do you want me to do that?
-```
