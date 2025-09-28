@@ -1,4 +1,3 @@
-Here’s a concise, professional version of your README:
 
 ````markdown
 # Discovering Hono RPC
